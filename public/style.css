@@ -1,0 +1,32 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+body > *:first-child {
+  margin-top: 40px !important;
+}
+
+body > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+svg {
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+
+pre {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
