@@ -1,1 +1,1 @@
-window.ngApp = angular.module("FootprintVisualizer", [])
+window.ngApp = angular.module("FootprintVisualizer", ["ngResource"])

@@ -1,6 +1,6 @@
 h1 Footprint Visualizer
 
-svg width="600" height="400"
-
-pre ng-controller="PreController"
-  | {{ json }}
+div ng-controller="VisualizerController"
+  svg width="600" height="400"
+  pre
+    | {{footprints|json}}
