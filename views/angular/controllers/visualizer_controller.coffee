@@ -1,2 +1,2 @@
 window.ngApp.controller "VisualizerController", ($scope, Footprint) ->
-  $scope.footprint = Footprint.new()
+  $scope.footprint = Footprint.query()

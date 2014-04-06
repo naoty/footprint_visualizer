@@ -1,7 +1,7 @@
 require "sinatra/base"
 require "slim"
 require "coffee-script"
-require "rabl"
+require "sinatra/jbuilder"
 
 require "./models/footprint"
 
@@ -14,10 +14,10 @@ class Application < Sinatra::Base
     coffee name.to_sym
   end
 
-  get "/footprints/new" do
+  get "/footprints" do
     content_type "application/json"
 
-    @footprint = Footprint.new
-    rabl :"footprints/new"
+    @footprints = [Footprint.new]
+    jbuilder :"footprints/index"
   end
 end

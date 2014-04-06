@@ -1,6 +1,5 @@
 window.ngApp.factory "Footprint", ($resource) ->
   actions =
-    new:
-      method: "GET"
-      url: "/footprints/new"
-  $resource "/footprints/:id", {}, actions
+    query:
+      isArray: false
+  $resource "/footprints/:id", { id: "@id" }, actions
