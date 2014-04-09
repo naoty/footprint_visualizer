@@ -1,0 +1,25 @@
+{
+  "name": "footprint_visualizer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naoty/footprint_visualizer.git"
+  },
+  "author": "Naoto Kaneko <naoty.k@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naoty/footprint_visualizer/issues"
+  },
+  "homepage": "https://github.com/naoty/footprint_visualizer",
+  "devDependencies": {
+    "karma-jasmine": "~0.1.5",
+    "karma": "~0.12.5",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-coffee-preprocessor": "~0.2.1"
+  }
+}
